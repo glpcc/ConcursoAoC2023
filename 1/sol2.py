@@ -10,7 +10,6 @@ digits = {'one':'one1one','two':'two2two','three':'three3three','four':4,'five':
 for i in range(len(new_lines)):
     for dig in digits:
         new_lines[i] = new_lines[i].replace(dig,str(digits[dig]))
-print(new_lines[10:20])
 tot = 0
 for i,word in enumerate(new_lines):
     digits = [i for i in word if i.isnumeric()]
