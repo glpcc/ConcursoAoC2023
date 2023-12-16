@@ -1,7 +1,7 @@
 import os
 import time
 
-days_solved = 11
+days_solved = 15
 temp_file = open('temp.txt','w')
 temp_file.close()
 for i in range(1,days_solved+1):
