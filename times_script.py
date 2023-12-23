@@ -1,7 +1,7 @@
 import os
 import time
 
-days_solved = 21
+days_solved = 23
 temp_file = open('temp.txt','w')
 temp_file.close()
 # If you want to skip days with loong times
